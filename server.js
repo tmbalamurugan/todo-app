@@ -4,7 +4,7 @@ const path = require('path');
 var http = require('http')
 // Run the app by serving the static files
 // in the dist directory
-app.use(express.static(__dirname + '/dist'));
+app.use(express.static(__dirname + '/dist/crud'));
 // Start the app by listening on the default
 // Heroku port
 
