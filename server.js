@@ -15,7 +15,7 @@ if (app.get('env') === 'production') {
 }
 
 
-mongoose.connect("mongodb+srv://tmbalagan:PnqvCZBN0d0EDS53@cluster0-8rqd8.mongodb.net/test?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
+mongoose.connect("mongodb+srv://todo-app:utXeP5bTMKyY2nCA@cluster0-8rqd8.mongodb.net/test?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true }).then(() => {
     console.log('MongoDB connected')
 }).catch((err) => {
     console.log('MongoDB err ', err);
