@@ -56,6 +56,7 @@ export class TodoComponent implements OnInit {
         (response: any) => {
           console.log('response.data ', response.data);
           this.todoList.push(response.data);
+          this.todoForm.reset();
           this.router.navigate(['/todo']);
         },
         error => {

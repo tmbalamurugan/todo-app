@@ -43,7 +43,7 @@ app.listTodo = function (req, res) {
             console.info("Successfully login")
         })
     } else {
-        res.status(500).json({ "error": "user id not found" })
+        res.status(200).json({ "msg": "no data" })
     }
 
 }
